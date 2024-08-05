@@ -4,9 +4,12 @@
 }
 
 .planet_hero {
+	display: flex;
 	flex: 2;
+
+	min-height: 670px;
 }
 
-.planet_hero {
+.planet_details {
 	flex: 1;
 }

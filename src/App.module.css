@@ -20,3 +20,24 @@
 		padding: 0 20px!important;
 	}
 }
+
+@keyframes move {
+	0% {
+	  transform: translateX(0);
+	}
+	50% {
+	  transform: translateX(100px); /* Adjust distance as needed */
+	}
+	100% {
+	  transform: translateX(0);
+	}
+}
+
+.background_stars {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+	animation: move 60s ease infinite;
+}

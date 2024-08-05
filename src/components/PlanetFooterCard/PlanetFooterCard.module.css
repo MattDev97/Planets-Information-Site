@@ -1,0 +1,10 @@
+.footer_card {
+	flex: 1;
+	border: 1px solid var(--color-dark-gray);
+	padding: 30px;
+	margin: 0 15px;
+
+	h4 {
+		opacity: 0.5;
+	}
+}

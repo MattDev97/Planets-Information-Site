@@ -17,7 +17,8 @@
 			"rotation_time": "58.6 Days",
 			"revolution_time": "87.97 Days",
 			"radius": "2,439.7 KM",
-			"average_temp": "430°c"
+			"average_temp": "430°c",
+			"button-color": "var(--color-teal)"
 		},
 		{
 			"name": "Venus",
@@ -36,7 +37,8 @@
 			"rotation_time": "243 Days",
 			"revolution_time": "224.7 Days",
 			"radius": "6,051.8 KM",
-			"average_temp": "471°c"
+			"average_temp": "471°c",
+			"button-color": "var(--color-orange)"
 		},
 		{
 			"name": "Earth",
@@ -55,7 +57,8 @@
 			"rotation_time": "0.99 Days",
 			"revolution_time": "365.26 Days",
 			"radius": "6,371 KM",
-			"average_temp": "16°c"
+			"average_temp": "16°c",
+			"button-color": "var(--color-purple)"
 		},
 		{
 			"name": "Mars",
@@ -72,9 +75,10 @@
 				"source": "https://en.wikipedia.org/wiki/Mars#Surface_geology"
 			},
 			"rotation_time": "1.03 Days",
-			"revolution_time": "1.88 Years",
+			"revolution_time": "1.88 Days",
 			"radius": "3,389.5 KM",
-			"average_temp": "-28°c"
+			"average_temp": "-28°c",
+			"button-color": "var(--color-red)"
 		},
 		{
 			"name": "Jupiter",
@@ -90,10 +94,11 @@
 				"content": "The best known feature of Jupiter is the Great Red Spot, a persistent anticyclonic storm located 22° south of the equator. It is known to have existed since at least 1831, and possibly since 1665.",
 				"source": "https://en.wikipedia.org/wiki/Jupiter#Great_Red_Spot_and_other_vortices"
 			},
-			"rotation_time": "9.93 Hours",
-			"revolution_time": "11.86 Years",
+			"rotation_time": "9.93 Days",
+			"revolution_time": "11.86 Days",
 			"radius": "69,911 KM",
-			"average_temp": "-108°c"
+			"average_temp": "-108°c",
+			"button-color": "var(--color-light-red)"
 		},
 		{
 			"name": "Saturn",
@@ -109,10 +114,11 @@
 				"content": "The outer atmosphere of Saturn contains 96.3% molecular hydrogen and 3.25% helium by volume. The planet's most famous feature is its prominent ring system, which is composed mostly of ice particles with a smaller amount of rocky debris and dust.",
 				"source": "https://en.wikipedia.org/wiki/Saturn#Atmosphere"
 			},
-			"rotation_time": "10.8 Hours",
-			"revolution_time": "29.46 Years",
+			"rotation_time": "10.8 Days",
+			"revolution_time": "29.46 Days",
 			"radius": "58,232 KM",
-			"average_temp": "-138°c"
+			"average_temp": "-138°c",
+			"button-color": "var(--color-bright-orange)"
 		},
 		{
 			"name": "Uranus",
@@ -128,10 +134,11 @@
 				"content": "The composition of Uranus's atmosphere is different from its bulk, consisting mainly of molecular hydrogen and helium. The helium molar fraction, i.e. the number of helium atoms per molecule of gas, is 0.15±0.03 in the upper troposphere.",
 				"source": "https://en.wikipedia.org/wiki/Uranus#Atmosphere"
 			},
-			"rotation_time": "17.2 Hours",
-			"revolution_time": "84 Years",
+			"rotation_time": "17.2 Days",
+			"revolution_time": "84 Days",
 			"radius": "25,362 KM",
-			"average_temp": "-195°c"
+			"average_temp": "-195°c",
+			"button-color": "var(--color-green)"
 		},
 		{
 			"name": "Neptune",
@@ -147,10 +154,11 @@
 				"content": "Neptune's atmosphere is 80% hydrogen and 19% helium. A trace amount of methane is also present. Prominent absorption bands of methane exist at wavelengths above 600 nm, in the red and infrared portion of the spectrum.",
 				"source": "https://en.wikipedia.org/wiki/Neptune#Atmosphere"
 			},
-			"rotation_time": "16.08 Hours",
-			"revolution_time": "164.79 Years",
+			"rotation_time": "16.08 Days",
+			"revolution_time": "164.79 Days",
 			"radius": "24,622 KM",
-			"average_temp": "-201°c"
+			"average_temp": "-201°c",
+			"button-color": "var(--color-blue)"
 		}
 	]
 }
