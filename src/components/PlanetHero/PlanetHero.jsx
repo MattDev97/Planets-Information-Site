@@ -2,8 +2,6 @@ import classes from './PlanetHero.module.css';
 import { PlanetSVGs } from "../../assets/AssetImports";
 
 export default function PlanetHero({ planetName = 'Earth', isInternalBool = false}) {
-	console.log('planetName: ' + planetName);
-
 	function getPlanetKey() {
 		if (isInternalBool) {
 			return 'Planet' + planetName + 'Internal';

@@ -8,13 +8,12 @@ import PlanetDetails from '../PlanetDetails/PlanetDetails.jsx';
 import PlanetMenu from '../PlanetMenu/PlanetMenu.jsx';
 
 export default function PlanetPage() {
-	const { getSelectedPlanet } = useContext(PlanetContext);
-	const selectedPlanetObject = getSelectedPlanet();
+	const { selectedPlanetName } = useContext(PlanetContext);
 
 	return (
 		<div className={classes.planet_content}>
 			<div className={classes.planet_hero}>
-				<PlanetHero planetName={selectedPlanetObject?.name}></PlanetHero>
+				<PlanetHero planetName={selectedPlanetName}></PlanetHero>
 			</div>
 			<div className={classes.planet_details}>
 				<PlanetDetails></PlanetDetails>

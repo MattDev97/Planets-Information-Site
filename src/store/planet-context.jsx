@@ -2,10 +2,17 @@ import { createContext, useState } from "react";
 
 import planetJSON from '../data/planet-data.json';
 
+export const UI_STATES = {
+	NORMAL: 'normal',
+	INTERNAL: 'internal',
+	GEOLOGY: 'geology'
+}
+
 export const PlanetContext = createContext({
 	planets : [],
 	planetNames : [],
-	selectedPlanet : 'Earth',
+	selectedPlanetName : 'Earth',
+	uiState : UI_STATES.NORMAL,
 	selectPlanet : () => {},
 	getSelectedPlanet : () => {}
 });
@@ -25,7 +32,7 @@ export function PlanetContextProvider({ children }) {
 	const ctxValue = {
 		planets : planetObjects,
 		planetNames : planetObjects.map(planet => planet.name),
-		selectedPlanet : selectedPlanet,
+		selectedPlanetName : selectedPlanet,
 		selectPlanet : handleSelectPlanet,
 		getSelectedPlanet : handleGetSelectedPlanet
 	};
