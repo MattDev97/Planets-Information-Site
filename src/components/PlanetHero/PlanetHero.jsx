@@ -1,6 +1,4 @@
 import classes from './PlanetHero.module.css';
-
-import { useState } from "react";
 import { PlanetSVGs } from "../../assets/AssetImports";
 
 export default function PlanetHero({ planetName = 'Earth', isInternalBool = false}) {
