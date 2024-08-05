@@ -1,6 +1,14 @@
+import { useContext } from 'react';
 import classes from './Header.module.css';
 
+import { PlanetContext } from '../../store/planet-context';
+
 export default function Header() {
+	const { planetNames, selectPlanet } = useContext(PlanetContext);
+
+	function handleSelectPlanet(planet) {
+		selectPlanet(planet);
+	}
 	return (
 		<header className={`text-white ${classes.header_main}`}>
 			<div>
@@ -9,9 +17,9 @@ export default function Header() {
 			<div className={classes.header_menu}>
 				<ul>
 					{
-						['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'].map(planet => (
+						planetNames.map(planet => (
 							<li key={planet}>
-								<a href={`#${planet}`}>{planet}</a>
+								<a onClick={() => handleSelectPlanet(planet)}>{planet}</a>
 							</li>
 						))
 					}
