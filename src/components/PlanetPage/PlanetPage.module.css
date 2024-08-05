@@ -1,0 +1,12 @@
+.planet_content {
+	margin-top: 150px;
+	display: flex;
+}
+
+.planet_hero {
+	flex: 2;
+}
+
+.planet_hero {
+	flex: 1;
+}

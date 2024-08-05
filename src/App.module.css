@@ -1,0 +1,22 @@
+/* Layout */
+@media (max-width: 768px) {
+	/* Styles for mobile devices */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+	/* Styles for tablet devices */
+	.container {
+		max-width: 768px!important;
+		margin: 0 auto!important;
+		padding: 0 20px!important;
+	}
+}
+
+@media (min-width: 1025px) {
+	/* Styles for desktop devices */
+	.container {
+		max-width: 1440px!important;
+		margin: 0 auto!important;
+		padding: 0 20px!important;
+	}
+}

@@ -1,13 +1,97 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Color Variables */
+:root {
+	--color-white: #FFFFFF;
+	--color-dark-blue: #070724;
+	--color-dark-gray: #38384F;
+	--color-gray: #838391;
+	--color-teal: #419EBB;
+	--color-orange: #EDA249;
+	--color-purple: #6F2ED6;
+	--color-red: #D14C32;
+	--color-light-red: #D83A34;
+	--color-bright-orange: #CD5120;
+	--color-green: #1EC2A4;
+	--color-blue: #2D68F0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;500&family=Spartan:wght@400;700&display=swap');
+
+body {
+	font-family: 'Spartan', sans-serif;
+	background-color: var(--color-dark-blue);
+	color: var(--color-white);
 }
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Antonio', sans-serif;
+	color: var(--color-white);
+
+	margin: initial;
+}
+
+h1 {
+	font-size: 80px;
+	line-height: 103px;
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 40px;
+	line-height: 52px;
+	letter-spacing: -1.5px;
+	font-weight: 500;
+}
+
+h3 {
+	font-size: 12px;
+	line-height: 25px;
+	letter-spacing: 2.6px;
+	font-weight: 700;
+}
+
+h4 {
+	font-size: 11px;
+	line-height: 25px;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+
+p,
+.body-text {
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: 400;
+	color: var(--color-gray);
+}
+
+/* Color Classes */
+.bg-white {background-color: var(--color-white);}
+.bg-dark-blue {background-color: var(--color-dark-blue);}
+.bg-dark-gray {background-color: var(--color-dark-gray);}
+.bg-gray {background-color: var(--color-gray);}
+.bg-teal {background-color: var(--color-teal);}
+.bg-orange {background-color: var(--color-orange);}
+.bg-purple {background-color: var(--color-purple);}
+.bg-red {background-color: var(--color-red);}
+.bg-light-red {background-color: var(--color-light-red);}
+.bg-bright-orange {background-color: var(--color-bright-orange);}
+.bg-green {background-color: var(--color-green);}
+.bg-blue {background-color: var(--color-blue);}
+
+.text-white {color: var(--color-white);}
+.text-dark-blue {color: var(--color-dark-blue);}
+.text-dark-gray {color: var(--color-dark-gray);}
+.text-gray {color: var(--color-gray);}
+.text-teal {color: var(--color-teal);}
+.text-orange {color: var(--color-orange);}
+.text-purple {color: var(--color-purple);}
+.text-red {color: var(--color-red);}
+.text-light-red {color: var(--color-light-red);}
+.text-bright-orange {color: var(--color-bright-orange);}
+.text-green {color: var(--color-green);}
+.text-blue {color: var(--color-blue);}
+
